@@ -1,0 +1,314 @@
+html, body {
+    font-size: 12px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    color: #222;
+}
+.log_hidden{
+    height:100px;
+    width:200px;
+    display:none;
+}
+.log{
+    width: 50px;
+    line-height: 28px;
+    cursor: pointer;
+    text-align: center;
+}
+.log a{
+    display: block;
+    color:white;
+    border: 1px solid #00A1DB;
+    background-color: #00A1DB;
+    border-radius: 4px;
+    margin:auto;
+    font-weight: bold;
+    text-decoration:none;
+    -webkit-transition:color .5s ease-in-out;
+    -moz-transition:color .5s ease-in-out;
+    -o-transition:color .5s ease-in-out;
+    transition:color .5s ease-in-out;
+}
+.log a:hover{
+    color:#00A1DB;
+    background-color:#8DB6CD; 
+}
+.title{
+    height: 44px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #00a1d6;   
+}
+.title_head{
+    height: 44px;
+    width: 980px;
+    display: block;
+    margin:auto;
+    text-align: left;
+    position: relative;
+}
+.titleSecond{
+    float: left;
+    height: 30px;
+    font-size: 14px;
+    width:980px;
+}
+.title_left{
+    height: 30px;
+    width: 418px;
+    float: left;
+    margin: 7px 0 7px 0;
+    font-size: 14px;
+}
+.title_left img{
+    margin:auto;
+    width:18px;
+    height:18px;
+}
+.title_right{
+    height: 44px;
+    width: 207px;
+    margin: 7px 0 7px 0;
+    float: right;
+    font-size: 14px;
+}
+.cartoon{
+    width:100%;
+}
+.cartoon img{
+    width:100%;
+    height:124px;
+}
+.bili{
+    width:100%;
+    height:124px;
+}
+.bili img{
+    width:100%;
+    height:106px;
+}
+.word_login{
+    width:100%;
+    font: 36px/1.125 Arial,Helvetica,sans-serif;
+    color: #45484D;
+}
+.word_login_center{
+    margin:auto;
+}
+.login_site{
+    width: 980px;
+    height:474px;
+    margin: 0px auto;
+    padding-bottom: 110px;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden
+}
+.register_jpg{
+    width: 480px;
+    height: 235px;
+    float: left;
+    background:url("../img/register.jpg");
+    margin-top: 50px;
+}
+.register_jpg p{
+    margin-top: 45px;
+    padding-left: 20px;
+    line-height: 23px;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-left: 55px;
+}
+.register_jpg a{
+    display: block;
+    width: 158px;
+    height: 38px;
+    border: 1px solid #00A1DB;
+    color: #00A1DB;
+    border-radius: 2px;
+    margin: 25px 155px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    -webkit-transition:color 1s ease-in-out, background-color 0.5s ease-in-out;
+    -moz-transition:color 1s ease-in-out, background-color 0.5s ease-in-out;
+    -o-transition:color 1s ease-in-out, background-color 0.5s ease-in-out;
+    transition:color 1s ease-in-out, background-color 0.5s ease-in-out;
+}
+.register_jpg a:hover{
+    color:white;
+    background-color:#8DB6CD; 
+    border: 1px solid #8DB6CD;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 240px;
+    background-color: #DDD;
+    margin: 0px auto 0px 50%;
+    position: absolute;
+    top: 50px;
+}
+.login_site_direct{
+    float: right;
+    position: relative;
+    margin-right: 42px;
+    margin-top: 20px;
+}
+.user_box{
+    width:400px;
+    height:70px;
+}
+.user_box input{
+    width:400px;
+    height:40px;
+    font: 24px/1.125 Arial,Helvetica,sans-serif;
+    margin:auto;
+}
+.user_check {
+    width:400px;
+    height:70px;
+}
+.user_check input{
+    width:182px;
+    height:40px;
+    font: 24px/1.125 Arial,Helvetica,sans-serif;
+}
+.user_check_image{
+    float:right;
+    width:100px;
+}
+.user_check_image img{
+    width:100px;
+}
+.user_sub{
+    width:400px;
+    height:70px;
+}
+.user_sub input{
+    width:400px;
+    height:40px;
+    font: 14px/1.125 Arial,Helvetica,sans-serif;
+    background-color: #00A7DE;
+    color:white;
+    border: 1px solid #0381AA;
+}
+.register_sum{
+    font: 16px/1.125 Arial,Helvetica,sans-serif;
+    padding-bottom: 110px;
+    width: 416px;
+    margin:auto;
+}
+.register_head{
+    text-align: center;
+    margin-top: 80px;
+}
+.register_box{
+    width:400px;
+    height:70px;
+}
+.register_box input{
+    padding: 9px 0px 9px 10px;
+    height: 20px;
+    width: 350px;
+    float: left;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    color: #A5A5A5;
+    margin-left: 20px;
+}
+.register_sub{
+    width:400px;
+    height:70px;
+}
+.register_sub input{
+    padding: 9px 0px 9px 10px;
+    width:317px;
+    float: left;
+    border: medium none;
+    border-radius: 3px;
+    color: #FFF;
+    margin-left: 20px;
+    cursor: pointer;
+    font: 16px/1.125 Arial,Helvetica,sans-serif;
+}
+.search{
+    width: 240px;
+    height: 40px;
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: medium 1px;
+    border-style: none solid;
+    border-color: -moz-use-text-color #DDD;
+    float:right;
+}
+.search_box input{
+    float: left;
+    width: 180px;
+    color: #4E4E4E;
+    text-shadow: 0px 0px 2px #FFF;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 4px 5px 0px 13px;
+    height: 32px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1424010942_919521.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1424010942_919521.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1424010942_919521.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1424010942_919521.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1424010942_919521.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont";
+    color:black;
+    font-style:normal;
+}
+.search_butt{
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    overflow: hidden;
+    border-left: 1px solid #DDD;
+    background:  repeat scroll 10px -263px #F9F9F9;
+}
+.menu{
+    height: 40px;
+    top: 120px;
+    width: 100%;
+    background: none repeat scroll 0% 0% #FFF;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.menu_adju{
+    position: relative;
+    width: 980px;
+    margin: 0px auto;
+}
+.head_menu{
+    float: left;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width:60px;
+}
+.word_menu{
+    padding: 10px 15px 7px 0px;
+    height: 26px;
+    line-height: 30px;
+    color: #00A1D6;
+    text-decoration: none;
+}
+.menu_title{
+    width:740px;
+}

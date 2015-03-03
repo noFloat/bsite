@@ -1,0 +1,864 @@
+﻿html,body{
+	   font-size: 15px;
+		font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+		color:#222;
+		margin:0;
+		padding: 0
+	}
+#first{
+  width:1349px;
+  height: 46px;
+  background:rgb(241,241,241);
+  text-align: center
+}
+.zhu{
+	width:91px;
+    height:30px;
+    padding: 0;
+    margin:0;
+    position: relative;
+    left:180px;
+}
+.aa{
+	text-align: center;
+	padding-top: 12px
+}
+a:link {
+	color: #222
+}
+a:visited {
+	color: #222
+}
+a:hover {
+	color: #FF00FF
+}
+a:active {
+	color: #222
+}
+a{
+	text-decoration: none
+}
+.hua{
+	width:70px;
+    height:30px;
+    padding: 0;
+    margin:0;
+    position: relative;
+    left:271px;
+    top:-18px;
+}
+.you{
+	width:70px;
+    height:30px;
+    padding: 0;
+    margin:0;
+    position: relative;
+    top:-48px;
+    left:362px;
+}
+.zhi{
+	width:70px;
+    height:30px;
+    padding: 0;
+    margin:0;
+    position: relative;
+    top:-78px;
+    left:453px;
+}
+.shou{
+	width:70px;
+    height:30px;
+    padding: 0;
+    margin:0;
+    position: relative;
+    top:-108px;
+    left:544px;
+}
+.bd{
+	width:207px;
+    height: 44px;
+    position: relative;
+    top:-196px;
+    left:945px;
+}
+.deng{
+	width:154px;
+    height: 44px;
+}
+.QQ,.wb,.dl{
+	background: #009CD6;
+    text-align: center;
+    width:40px;
+    height: 30px;
+    border: 1px solid gray
+}
+.QQ{
+	position: relative;
+    top:52px;
+}
+.wb{
+	position: relative;
+    top:20px;
+    left:40px;
+}
+.dl{
+	position: relative;
+    top:-12px;
+    left:80px;
+    color: white
+}
+.ce{
+	height:44px;
+    width:38px;
+    position: relative;
+    left:154px;
+    top:15px;
+}
+#second{
+	width:1349px;
+	height: 2px;
+	background:rgb(0,161,214);
+}
+#third,.bei,.dh{
+	width:1349px;
+}
+.bei{
+	height:113px;
+}
+.dh{height: 42px;
+	background:#FFF;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	margin-left: -40px;
+	margin-top: 0;
+	margin-bottom: 0
+}
+.ye,.dong,.fan,.yin,.wu,.xi,.ke,.yu,.gui,.ying,.shi{
+	width:60px;
+	height:20px;
+}
+.ye{
+	position: relative;
+    left:182px;
+    top:10px;
+}
+.dong{
+	position: relative;
+    left:242px;
+    top:-10px;
+}
+.fan{
+	position: relative;
+    left:302px;
+    top:-30px;
+}
+.yin{
+	position: relative;
+    left:362px;
+    top:-50px;
+}
+.wu{
+	position: relative;
+    left:422px;
+    top:-70px;
+}
+.xi{
+	position: relative;
+    left:482px;
+    top:-90px;
+}
+.ke{
+	position: relative;
+    left:542px;
+    top:-110px;
+}
+.yu{
+	position: relative;
+    left:602px;
+    top:-130px;
+}
+.gui{
+	position: relative;
+    left:662px;
+    top:-150px;
+}
+.ying{
+	position: relative;
+    left:722px;
+    top:-170px;
+}
+.shi{
+	position: relative;
+    left:782px;
+    top:-190px;
+}
+.pai{
+	width:68px;
+    height: 30px;
+    position: relative;
+    left:862px;
+    top:-230px;
+}
+.hang{
+	width:30px;
+    height: 20px;
+    position: relative;
+    left:30px;
+    top:-27px;
+}
+input{
+	height:38px;
+}
+.so{
+	width:240px;
+    height:40px;
+    position: relative;
+    left:945px;
+    top:-270px;
+}
+button{
+	background:#F489AD;
+	border: 0;
+	border-radius: 6px;
+	color: white;
+	width:32px;
+	height:17px;
+}
+li{ list-style:none; }
+li:hover ul{display:block;}
+.hidden{
+	font-size: 15px;
+	width:120px;
+	height:135px;
+	z-index:9999;
+	background:white;
+	border: 1px solid #DDD;
+	display: none;
+}
+#flash{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#every{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#music{
+	position:absolute;
+	left:-62px;
+	top:20px;  
+}
+#dance{
+	position:absolute;
+	left:-62px;
+	top:20px;  
+}
+#game{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#science{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#fun{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#chill{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#movie{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+#long{
+	position:absolute;
+	left:-62px;
+	top:20px; 
+}
+.f1,.f2,.f3,.f4{
+	width:80px;
+	height:30px;
+}
+.back{
+	  background:rgb(250,250,250);
+	  height:1800px;
+	  width:1349px;
+}
+.title{
+	width:980px;
+	height:91px;
+	position: relative;
+    left:185px;
+    top:20px;
+}
+#forth{
+	width:690px;
+	height:71px;
+	position: relative;
+    top:10px;
+    border-bottom: 2px solid #DDD
+}
+#fifth{
+	width:272px;
+	height:76px;
+	position: relative;
+    top:-61px;
+    left:705px;
+    background:white;
+    border: 1px solid #DDD;
+    border-radius: 5px
+}
+.picture{
+	background:url(001.gif);
+	width:64px;
+	height:64px;
+	position: relative;
+    top:5px;
+    left:10px;
+}
+.user{
+	width:120px;
+	height:50px;
+	position: relative;
+    top:-55px;
+    left:86px;
+}
+a#name{
+	color: rgb(0,166,216)
+}
+.care{
+	width:56px;
+	height:24px;
+	position: relative;
+    top:-108px;
+    left:216px;
+}
+.heading{
+	width:200px;
+	height:40px;
+	position: relative;
+    top:0px;
+    left:0px;
+}
+.mini{
+	width:138px;
+	height:23px;
+	position: relative;
+    top:-20px;
+    left:47px;
+    font-size: 17px
+}
+.intro{
+	width:490px;
+	height:23px;
+	position: relative;
+    top:5px;
+    left:10px;
+    font-size: 13px
+}
+.time{
+	width:360px;
+	height:23px;
+	position: relative;
+    top:-18px;
+    left:110px;
+    color: rgb(153,153,166)
+}
+#fav{
+	width:85px;
+	height:20px;
+	position: relative;
+    top:-19px;
+    left:610px;
+}
+.box{
+	background:rgb(53,53,53);
+	width:683px;
+	height:52px;
+	position: relative;
+    top:118px;
+    left:185px;
+}
+#b1,#b2,#b3{
+	text-align: center;
+	background:rgb(38,38,38);
+	height:36px;
+	color: white;
+	line-height: 200%;
+	border-radius: 3px
+}
+#b1,#b3{
+	width:17px;
+}
+#b2{
+	width:620px;
+	position: relative;
+    top:-29px;
+    left:31px;
+}
+#b1{
+	position: relative;
+    top:7px;
+    left:7px;
+}
+#b3{
+	position: relative;
+    top:-65px;
+    left:658px;
+}
+.player{
+	width:684px;
+	height:480px;
+	position: relative;
+    top:118px;
+    left:185px;
+}
+video,object{
+	width:683px;
+	height:440px;
+}
+.remark{
+	width:300px;
+	height:530px;
+	position: relative;
+    top:-414px;
+    left:870px;
+    background:white;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    color: rgb(106,106,106);
+	font-size: 10px
+}
+.fi,.se,.thi{
+	width:98px;
+	height:75px;
+	border: 1px solid #DDD
+}
+.se{
+	position: relative;
+    top:-77px;
+    left:100px;
+}
+.thi{
+	position: relative;
+    top:-154px;
+    left:200px;
+}
+.bf,.sc,.dm{
+	width:42px;
+	height:17px;
+	color: rgb(106,106,106);
+	font-size: 10px
+}
+.sd,.gao,.lishi{
+	width:98px;
+	height:23px;
+	border-top: 1px solid #DDD
+}
+.math{
+	width:50px;
+	height:51px;
+	position: relative;
+    top:-75px;
+    left:42px;
+    line-height: 165%
+}
+.wei{
+	width:98px;
+	height:16px;
+	border-bottom: 1px solid #DDD
+}
+.bi{
+	width:98px;
+	height:34px;
+}
+.audi{
+	width:73px;
+	height:51px;
+	border-right: 1px solid #DDD;
+	font-size: 14px;
+	color: black
+}
+.coin{
+	width:24px;
+	height:51px;
+	position: relative;
+    top:-51px;
+    left:73px;
+}
+.tou{
+	width:24px;
+	height:24px;
+	border-bottom: 1px solid #DDD;
+	margin-left: 1px
+}
+.set{
+	width:23px;
+	height:27px;
+	margin-left: 2px
+}
+.lishi{
+	margin-top: -51px
+}
+.fo{
+	background:rgb(248,248,248);
+	width:300px;
+	height:25px;
+	border-bottom: 1px solid #DDD;
+	margin-top: -154px;
+	font-size:14px;
+}
+#jian,#lun,#qi{
+	height:25px;
+	text-align: center
+}
+#jian{
+	width:47px;
+}
+#lun{
+	width:157px;
+	margin-top:-25px;
+	margin-left: 47px
+}
+#qi{
+	width:87px;
+	margin-top:-25px;
+	margin-left: 204px
+}
+.control{
+	background:rgb(255,255,255);
+	width:682px;
+	height:38px;
+	border: 1px solid #DDD;
+	position: relative;
+    top:-454px;
+    left:184px;
+}
+.yangshi,.yanse{
+	width:27px;
+	height:19px;
+}
+.yangshi{
+	margin-top: 10px
+}
+.yanse{
+	position: relative;
+    top:-19px;
+    left:42px;
+}
+.send{
+	width:596px;
+	height:38px;
+	position: relative;
+    top:-49px;
+    left:85px;
+    border: 1px solid #DDD;
+    padding:0;
+}
+#users{
+	width:525px;
+}
+#sending{
+	background:rgb(0,162,214);
+	width:71px;
+	color: white;
+	font-size: 17px;
+	position: relative;
+    top:-38px;
+    left:525px;
+    border: 0
+}
+.share{
+	width:985px;
+	height:50px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	background:rgb(255,255,255);
+	position: relative;
+    left:185px;
+    top:-440px;
+}
+.sharing,.collect{
+	width:320px;
+	height:50px;
+	border-right: 1px solid #DDD
+}
+.s1{
+	width:67px;
+	height:32px;
+	position: relative;
+    top:10px;
+    left:8px;
+}
+.s2,.s3,.s4,.s5{
+	width:38px;
+	height:38px;
+}
+.s2{
+	position: relative;
+    left:80px;
+    top:-25px;
+}
+.s3{
+	position: relative;
+    left:130px;
+    top:-63px;
+}
+.s4{
+	position: relative;
+    left:180px;
+    top:-101px;
+}
+.s5{
+	position: relative;
+    left:230px;
+    top:-139px;
+}
+.collect{
+	position: relative;
+    left:324px;
+    top:-50px;
+}
+.bp{
+	width:99px;
+	height:50px;
+	position: relative;
+    top:-100px;
+    left:648px;
+    line-height: 100%;
+    border-right: 1px solid #DDD
+}
+.more{
+	width:60px;
+	height:20px;
+	position: relative;
+    top:-35px;
+    left:33px;
+}
+.mark{
+	width:237px;
+	height:50px;
+	position: relative;
+    top:-150px;
+    left:748px;
+}
+.B{
+	width:72px;
+	height:31px;
+	position: relative;
+    top:-36px;
+    left:55px;
+}
+.zan{
+	width:59px;
+	height:31px;
+	position: relative;
+    top:-69px;
+    left:129px;
+}
+.tag{
+	width:692px;
+	height:54px;
+	position: relative;
+    top:-425px;
+    left:185px;
+    background:rgb(251,251,251);
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    border-bottom: 0
+}
+.t1,.t2,.t3{
+	width:60px;
+	height:20px;
+	font-size: 13px
+}
+.t1{
+	position: relative;
+    left:5px;
+    top:5px;
+}
+.t2{
+	position: relative;
+    left:65px;
+    top:-15px;
+}
+.t3{
+	position: relative;
+    left:108px;
+    top:-35px;
+}
+.t-intro{
+	width:692px;
+	height:80px;
+	position: relative;
+    top:-426px;
+    left:185px;
+    border: 1px solid #DDD;
+    background:white;
+    color: rgb(106,106,106);
+	font-size: 13px
+}
+.conf{
+	width:690px;
+	height:20px;
+	position: relative;
+    top:-400px;
+    left:185px;
+}
+#strong{
+	width:40px;
+	margin-top: -10px
+}
+#confirm{
+	height:20px;
+}
+#check{
+	width:120px;
+	height:20px;
+	position: relative;
+    top:-25px;
+    left:65px;
+}
+#resu{
+	width:322px;
+	height:82px;
+	position: relative;
+    top:-325px;
+    left:365px;
+}
+.last{
+	margin-top: -200px
+}
+#hid{
+	width:785px;
+	height:510px;
+	position: relative;
+    top:-440px;
+    left:285px;
+    background:rgb(250,250,250);
+}
+.remark1{
+	width:630px;
+	height:150px;
+	margin: -96px 0 0 127px
+}
+#words,#remarkable{
+	border-radius: 5px
+}
+#words{
+	width:596px;
+	height:87px;
+	border: 1px solid #DDD;
+}
+#remarkable{
+	width:110px;
+	height:30px;
+	border: 1px solid rgb(0,130,176);
+	background:rgb(0,168,223);
+	color: white;
+	margin: 10px 0 0 480px
+}
+.emotion{
+	width:91px;
+	height:29px;
+	margin: -50px 0 0 130px
+}
+.edit{
+	width:785px;
+	height:38px;
+}
+#e1,#e2,#e3{
+	width:64px;
+	height:26px;
+	border-radius: 4px;
+	text-align: center
+}
+#e1{
+	background:rgb(0,168,223);
+	color: white;
+	margin: 23px 0 0 32px
+}
+#e2{
+	margin: -26px 0 0 110px
+}
+#e3{
+	margin: -26px 0 0 188px
+}
+.page{
+	width:70px;
+	height:26px;
+	margin: -26px 0 0 448px
+}
+#page1,#page2{
+	width:36px;
+	height:26px;
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 3px
+}
+#page1{
+	margin: -30px 0 0 195px
+}
+#page2{
+	margin: -30px 0 0 235px
+}
+.rv1,.rv2,.rv3{
+	width:690px;
+	height:99px;
+	border-bottom: 1px solid #DDD
+}
+.rv1{
+	margin: 20px 0 0 30px
+}
+.rv2,.rv3{
+	margin-left: 30px
+}
+.pic1{
+	width:48px;
+	height:48px;
+	margin-left: 10px;
+	margin-top:2px;
+}
+.floor{
+	width:32px;
+	height:12px;
+	font-size: 12px;
+	color: rgb(170,170,170);
+	margin: -44px 0 0 70px
+}
+.username{
+	margin: -12px 0 0 103px
+}
+#usersname{
+	color:rgb(0,168,223);
+	font-size: 12px
+}
+.say{
+	margin-left: 70px
+}
+.bt{
+	width:621px;
+	height:12px;
+	font-size: 12px;
+	color: rgb(170,170,170);
+	margin: 25px 0 0 70px
+}
+.move{
+	width:40px;
+	height:12px;
+	margin: -12px 0 0 593px
+}
+#click{
+	color: rgb(170,170,170);
+}
